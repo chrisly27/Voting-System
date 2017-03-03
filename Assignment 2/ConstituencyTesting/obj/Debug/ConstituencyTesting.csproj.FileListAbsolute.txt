@@ -1,0 +1,7 @@
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\bin\Debug\ConstituencyTesting.dll
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\bin\Debug\ConstituencyTesting.pdb
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\bin\Debug\Assignment 2.exe
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\bin\Debug\Assignment 2.pdb
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\obj\Debug\ConstituencyTesting.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\obj\Debug\ConstituencyTesting.dll
+C:\Users\Owner\Desktop\New Version - David Nada Crisly Versions\Crisly\Assignment 2 - UML\ConstituencyTesting\obj\Debug\ConstituencyTesting.pdb

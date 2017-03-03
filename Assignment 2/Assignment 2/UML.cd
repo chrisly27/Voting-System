@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment_2.ConfigData" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Data\ConfigData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.ConfigRecord" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ConfigRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Consumer" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkIAAAAAIAAAAAQAAAAEAAAIAAAAAAACAAAEEgA=</HashCode>
+      <FileName>Data\Consumer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.PCQueue" Collapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAAIACAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Data\PCQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Producer" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAABAIAAAAAQAAAAEAAAAAAAAAAACAAAMEgA=</HashCode>
+      <FileName>Data\Producer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.ProgressManager" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ProgressManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Work" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Work.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.DisplayConstituency" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBwAAAQBACAEgACABAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\DisplayConstituency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.DisplayElectedCandidatesForm" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACCAAAAQEACAAAACABAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\DisplayElectedCandidatesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.DisplayPartyForm" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAACAACAAAACAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Forms\DisplayPartyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.DisplayWinner" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAASAAgACAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\DisplayWinner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.MainMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAMCBAAAQAAICAAAECEDAAACAEAAACiAIQABA=</HashCode>
+      <FileName>Forms\MainMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment_2.Candidate" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABgEgA=</HashCode>
+      <FileName>Lists\Candidate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.CandidateList" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\CandidateList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Constituency" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Lists\Constituency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.ConstituencyList" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\ConstituencyList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.Party" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEAAAAAAAAAAAAAAEAAAAAAAAgAAA=</HashCode>
+      <FileName>Lists\Party.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.PartyList" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\PartyList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_2.XMLConstituencyFileReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQACAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml Files\XMLConstituencyFileReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment_2.XMLPartyReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml Files\XMLPartyReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment_2.Program" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Assignment_2.IConstituencyFileReader" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IConstituencyFileReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment_2.IPartyDataReader" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPartyDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment_2.IPCQueue" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPCQueue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment_2.IUserInterface" Collapsed="true">
+    <Position X="2" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABA=</HashCode>
+      <FileName>Interfaces\IUserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

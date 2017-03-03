@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Election>
+	<Constituency name="Sunderland">
+		<Candidate party="Conservative">
+			<Firstname>Fred</Firstname>
+			<Surname>Bloggs</Surname>
+			<Votes>109</Votes>
+		</Candidate>
+		<Candidate party="Green">
+			<Firstname>Tina</Firstname>
+			<Surname>Muanza</Surname>
+			<Votes>200</Votes>
+		</Candidate>
+		<Candidate party="Freedom">
+			<Firstname>Keith</Firstname>
+			<Surname>Robson</Surname>
+			<Votes>345</Votes>
+		</Candidate>
+	</Constituency>
+</Election>

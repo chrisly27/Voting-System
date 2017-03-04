@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Election>
+	<Constituency name="Gateshead">
+		<Candidate party="Conservative">
+			<Firstname>Jonas</Firstname>
+			<Surname>Strong</Surname>
+			<Votes>7454</Votes>
+		</Candidate>
+		<Candidate party="Green">
+			<Firstname>Victoria</Firstname>
+			<Surname>Reed</Surname>
+			<Votes>200</Votes>
+		</Candidate>
+		<Candidate party="Freedom">
+			<Firstname>Mary</Firstname>
+			<Surname>Brown</Surname>
+			<Votes>54</Votes>
+		</Candidate>
+	</Constituency>
+</Election>

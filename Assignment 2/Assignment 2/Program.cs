@@ -16,7 +16,11 @@ namespace Assignment_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenu());
+
+            // Create IO Handler (in this case a local file reader
+            var IOhandler = new XMLConstituencyFileReader();
+
+            Application.Run(new FormsBasedUI(IOhandler));
         }
     }
 }

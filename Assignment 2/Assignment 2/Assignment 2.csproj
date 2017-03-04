@@ -47,71 +47,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lists\Candidate.cs" />
-    <Compile Include="Lists\CandidateList.cs" />
-    <Compile Include="Data\ConfigData.cs" />
-    <Compile Include="Data\ConfigRecord.cs" />
-    <Compile Include="Lists\Constituency.cs" />
-    <Compile Include="Lists\ConstituencyList.cs" />
-    <Compile Include="Data\Consumer.cs" />
-    <Compile Include="Forms\DisplayConstituency.cs">
+    <Compile Include="Candidate.cs" />
+    <Compile Include="ConfigData.cs" />
+    <Compile Include="ConfigRecord.cs" />
+    <Compile Include="Constituency.cs" />
+    <Compile Include="ConstituencyList.cs" />
+    <Compile Include="Consumer.cs" />
+    <Compile Include="FormsBasedUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DisplayConstituency.Designer.cs">
-      <DependentUpon>DisplayConstituency.cs</DependentUpon>
+    <Compile Include="FormsBasedUI.Designer.cs">
+      <DependentUpon>FormsBasedUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\DisplayElectedCandidatesForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\DisplayElectedCandidatesForm.Designer.cs">
-      <DependentUpon>DisplayElectedCandidatesForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\DisplayPartyForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\DisplayPartyForm.Designer.cs">
-      <DependentUpon>DisplayPartyForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\DisplayWinner.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\DisplayWinner.Designer.cs">
-      <DependentUpon>DisplayWinner.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Interfaces\IConstituencyFileReader.cs" />
-    <Compile Include="Interfaces\IPartyDataReader.cs" />
-    <Compile Include="Interfaces\IPCQueue.cs" />
-    <Compile Include="Interfaces\IUserInterface.cs" />
-    <Compile Include="Forms\MainMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\MainMenu.Designer.cs">
-      <DependentUpon>MainMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Lists\Party.cs" />
-    <Compile Include="Lists\PartyList.cs" />
-    <Compile Include="Data\PCQueue.cs" />
-    <Compile Include="Data\Producer.cs" />
+    <Compile Include="IConstituencyFileReader.cs" />
+    <Compile Include="IUserInterface.cs" />
+    <Compile Include="Party.cs" />
+    <Compile Include="PartyList.cs" />
+    <Compile Include="PCQueue.cs" />
+    <Compile Include="Producer.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Data\ProgressManager.cs" />
+    <Compile Include="ProgressManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Data\Work.cs" />
-    <Compile Include="Xml Files\XMLConstituencyFileReader.cs" />
-    <Compile Include="Xml Files\XMLPartyReader.cs" />
-    <EmbeddedResource Include="Forms\DisplayConstituency.resx">
-      <DependentUpon>DisplayConstituency.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DisplayElectedCandidatesForm.resx">
-      <DependentUpon>DisplayElectedCandidatesForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DisplayPartyForm.resx">
-      <DependentUpon>DisplayPartyForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DisplayWinner.resx">
-      <DependentUpon>DisplayWinner.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MainMenu.resx">
-      <DependentUpon>MainMenu.cs</DependentUpon>
+    <Compile Include="Work.cs" />
+    <Compile Include="XMLConstituencyFileReader.cs" />
+    <EmbeddedResource Include="FormsBasedUI.resx">
+      <DependentUpon>FormsBasedUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -139,7 +99,6 @@
   <ItemGroup>
     <None Include="Resources\199cc569-f090-45a4-9f04-6dff79677b0f.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

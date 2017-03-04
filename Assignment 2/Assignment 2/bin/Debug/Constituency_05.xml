@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Election>
+	<Constituency name="Leeds">
+		<Candidate party="Conservative">
+			<Firstname>Daisy</Firstname>
+			<Surname>Rumsey</Surname>
+			<Votes>285</Votes>
+		</Candidate>
+		<Candidate party="Green">
+			<Firstname>Jack</Firstname>
+			<Surname>Bond</Surname>
+			<Votes>15</Votes>
+		</Candidate>
+		<Candidate party="Freedom">
+			<Firstname>Elizabeth</Firstname>
+			<Surname>Días</Surname>
+			<Votes>256</Votes>
+		</Candidate>
+	</Constituency>
+</Election>

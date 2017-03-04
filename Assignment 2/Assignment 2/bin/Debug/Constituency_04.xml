@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Election>
+	<Constituency name="London">
+		<Candidate party="Conservative">
+			<Firstname>William</Firstname>
+			<Surname>Samuel</Surname>
+			<Votes>65</Votes>
+		</Candidate>
+		<Candidate party="Green">
+			<Firstname>Andy</Firstname>
+			<Surname>Henry</Surname>
+			<Votes>45241</Votes>
+		</Candidate>
+		<Candidate party="Freedom">
+			<Firstname>Abbie</Firstname>
+			<Surname>Louise</Surname>
+			<Votes>19</Votes>
+		</Candidate>
+	</Constituency>
+</Election>
